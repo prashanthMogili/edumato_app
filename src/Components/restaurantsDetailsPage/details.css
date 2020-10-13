@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* **************************************** IAMGE PART  *********************************************/
+
+.image-container {
+    /* background-image: url("https://i.ibb.co/4gGh9KZ/bg-detail2.jpg"); */
+    /* background-position: center;
+    background-size: cover; */
+    width: 94%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: 400px;
+}
+
+.image-text a,
+.image-text a:active,
+.image-text a:visited,
+.image-text a:link{
+    text-decoration: none;
+    background-color: rgb(243, 236, 236, .8);
+    color: rgb(41, 74, 124);
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.image-text a:hover {
+    background-color: rgb(243, 236, 236, 9);
+}
+
+.container-heading {
+    font-size: 45px;
+    color: rgb(48, 56, 99);
+    font-weight: bold;
+    font-family: 'Long Cang', cursive;
+}
+
+/* **************************************** ADDRESS PART  *********************************************/
+
+.tab {
+    margin: 30px 0 0 100px;
+    font-size: 15px;
+    color: orange;
+}
+
+/* .tab ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    color: rgb(54, 65, 122);
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+.tabcontent {
+    display: none;
+}
+
+.tab ul li:hover {
+    opacity: .7;
+}
+
+.tab ul li.active {
+    border-bottom: 1px solid orangered;
+}
+
+
+hr {
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(208, 215, 219, 0.863);
+    height: 1px;
+}
+
+.about-heading {
+    font-size: 18px;
+    color: rgb(54, 65, 122);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 0 0;
+}
+
+.aboutSubHeading {
+    font-size: 15px;
+    color: rgb(54, 65, 122);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 0 0;
+}
+
+.aboutSubHeading-content {
+    font-size: 12px;
+    color: rgb(87, 98, 146);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+.contact-heading {
+    font-size: 15px;
+    color: rgb(54, 65, 122);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.phone-number {
+    font-size: 15px;
+    color: rgb(212, 93, 72);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.address {
+    font-size: 12px;
+    color: rgb(87, 98, 146);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.details-box {
+    margin-bottom: 50px;
+}
+
+.back-btn {
+    color: white;
+    background-color: rgb(196, 68, 36);
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+
+.booking-btn {
+    color: white;
+    background-color: rgb(37, 134, 37);
+    margin-top: 40px;
+}
+.back-btn:hover {
+    color:  rgb(196, 68, 36);
+    background-color: white;
+    border: 1px solid rgb(196, 68, 36);
+}
+
+.booking-btn:hover {
+    color: rgb(37, 134, 37);
+    background-color: white;
+    border: 1px solid green;
+}

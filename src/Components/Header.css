@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar1 {
+    width: 100%;
+    background-color: rgb(201, 25, 25);
+    /* padding: 15px; */
+    height: 85px;
+}
+
+.navbar1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo,
+.logo:link,
+.logo:active,
+.logo:visited{
+    text-decoration: none;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(189, 33, 33);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.logo:hover{
+    cursor: pointer;
+    color: rgb(252, 249, 249);
+    background-color: rgb(201, 25, 25);
+}
+
+/* .logo b{
+    padding: 7px;
+} */
+
+.tooltiptext {
+    /* background-color: rgba(199, 57, 14, 0.9); */
+    color: rgb(243, 234, 234);
+    /* /*width: 100%; */
+    text-align: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 2px 3px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    top: 4px;
+    left: 70px;
+    visibility: hidden;
+}
+
+.logo:hover .tooltiptext {
+    visibility: visible;
+}
+
+.navbar-links {
+    float: right;
+    /* margin-top: 10px; */
+    margin-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar-links a,
+.navbar-links a:active,
+.navbar-links a:link,
+.navbar-links a:visited{
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+    padding: 8px;
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.navbar-links a:hover {
+    opacity: .7;
+}
+
+.navbar-links a:nth-child(2) {
+    border: 1px solid rgb(201, 197, 197);
+    margin-left: 10px;
+}
+
+ion-icon {
+    font-size: 25px;
+    margin-left: 10px;
+}

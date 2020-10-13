@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.order-list h3{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+/* .order-list {
+    background-image: linear-gradient(to left, rgba(100, 75, 75, 0), rgb(49, 20, 20)), url("https://images.pexels.com/photos/264547/pexels-photo-264547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1240");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 92.4vh;
+} */
+
+

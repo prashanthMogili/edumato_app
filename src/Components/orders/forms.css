@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.forms .form-heading h3{
+    color: steelblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.forms label {
+    color: steelblue;
+}
+
+.form-bg input,
+.form-row select {
+    background: none;
+    border-bottom: 1px solid rgb(50, 59, 185);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(238, 197, 63);
+    /* color:rgb(224, 109, 32); */
+    /* font-family: 'Long Cang', cursive; */
+}
+
+.forms .form-control:active,
+.forms .form-control:focus,
+.forms .form-control:focus:active {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:rgb(224, 109, 32);
+    box-shadow: none;
+    border-bottom: 2px solid rgb(224, 109, 32);
+}
+
+.forms .form-control::placeholder {
+    font-family: 'Long Cang', cursive;
+    font-size: 26px;
+}
+
+.forms .form-control:focus::placeholder {
+    color:  rgb(243, 125, 46);
+    opacity: .6;
+}
+
+.forms .button {
+    text-align: center;
+    
+}
+
+.forms .btn-form-submit {
+    margin: 50px 0px 0px 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.forms .btn-cancel {
+    background-color: rgb(180, 48, 48);
+    border-bottom: 2px solid rgb(134, 54, 54);
+}
+
+.forms .btn-cancel:hover {
+    box-shadow: 0px 3px 4px black;
+    background-color: white;
+    color: rgb(180, 48, 48);
+}
+
+.forms .btn-booking {
+    background-color: rgb(32, 139, 37);
+    border-bottom: 2px solid  rgb(38, 107, 41);
+}
+
+.forms .btn-booking:hover {
+    background-color: white;
+    border-bottom: 2px solid rgb(38, 107, 41);
+    color: rgb(32, 139, 37);
+    box-shadow: 0px 3px 4px black;
+}
+
+.forms .btn-form-submit:focus {
+    box-shadow: none;
+    border-bottom: 2px solid rgb(224, 109, 32);
+}
+
+

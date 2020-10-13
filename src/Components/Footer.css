@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(68, 65, 65);
+    text-align: center;
+}
+
+.footer-brand-name,
+.footer-brand-name:link,
+.footer-brand-name:active,
+.footer-brand-name:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+.footer-brand-name:hover{
+    cursor: pointer;
+    color: rgb(189, 33, 33);
+}
+
+.footer a {
+    text-decoration: none;
+    margin-left: 55px;
+}
+
+.copy-right {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+

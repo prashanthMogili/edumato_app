@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ***************************************** HEADING ****************************************************** */
+
+.main-heading {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(38, 38, 119);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    width: 70%;
+    margin: 30px auto;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+
+/* ***************************************** CENTER PAGE CONTENT **************************************** */
+
+
+/* .main-container {
+    width: 70%;
+    height: 600px;
+    margin: 30px auto;
+} */
+
+/* ***************************************** left Content ************************************************** */
+
+
+
+.filter-heading {
+    color: rgb(38, 38, 119);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.filter-subheading {
+    color: rgb(67, 67, 122);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.select {
+    padding: 5px;
+    width: 90%;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 3px rgb(163, 162, 162);
+    color: rgb(158, 155, 155);
+    font-size: 15px;
+}
+
+label {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+input[type="checkbox"]:checked + label  {
+    color: rgb(134, 32, 18);  
+}
+
+input[type="checkbox"] + label  {
+    color: rgb(131, 130, 130);
+}
+
+input[type="radio"]:checked + label  {
+    color: rgb(134, 32, 18);
+}
+
+input[type="radio"] + label  {
+    color: rgb(131, 130, 130);
+}
+
+/* ***************************************** Right Content ********************************************** */
+
+.image-box {
+    margin-top: 10px;
+}
+
+.image-box img{
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+hr {
+    width: 85%;
+    margin-left: 40px;
+}
+
+.top-heading {
+    color: rgb(38, 38, 119);
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+.top-subheading {
+    color: rgb(49, 49, 146);
+    font-size: 13px;
+}
+
+.top-content {
+    color: rgb(59, 59, 158);
+    font-size: 12px;
+}
+
+.property {
+    color: gray;
+    font-size: 13px;
+}
+
+.value {
+    color: rgb(71, 71, 138);
+    font-size: 13px;
+}
+
+
+/* ****************************************** PAGINATION *************************************************** */
+
+/* 
+.pagination {
+    margin-left: 150px;
+    margin-top: 40px;
+} */
+
+.pagination a {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    box-shadow: 0 1px 4px rgb(240, 239, 243);
+    margin:5px;
+    font-size: 15px;
+
+}
+
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+/* ****************************************** PRE-LOADER ************************************************* */
+
+.loader img{
+    width: 100%;
+    height: 90vh;
+}
+
+
+@media screen and (min-width: 900px) {
+    .filter {
+        width: 90%;
+        margin-left: 175px;
+    }
+
+    .rest-display {
+        margin-left: 100px;
+        width: 100%;
+    }
+}
+
+/* ****************************************** DETAILS MESSAGE ************************************************* */
+
+.d-message1{
+    color: orangered;
+    font-family: 'Long Cang', cursive;
+    font-size: 50px;
+    text-align: center;
+    /* border-left: 2px solid orange;
+    border-right: 2px solid orange; */
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.d-message2{
+    color: steelblue;
+    font-family: 'Long Cang', cursive;
+    font-size: 30px;
+    text-align: center;
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    margin-left: 50px;
+}
