@@ -29,7 +29,7 @@ class Login extends Component {
                         </div>
                     </div>
                     <div className="login-button-box">
-                        <button type="button" className="btn login-btn">
+                        <button type="button" className="btn btn-lg login-btn">
                             Login
                         </button>
                     </div>
